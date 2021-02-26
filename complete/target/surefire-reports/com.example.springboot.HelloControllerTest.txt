@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.example.springboot.HelloControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.768 s - in com.example.springboot.HelloControllerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.437 s <<< FAILURE! - in com.example.springboot.HelloControllerTest
+getHello  Time elapsed: 0.185 s  <<< FAILURE!
+java.lang.AssertionError: 
+Response content
+Expected: "Grtings from Spring Boot!"
+     but: was "Greetings from Spring Boot!"
+	at com.example.springboot.HelloControllerTest.getHello(HelloControllerTest.java:27)
+
